@@ -1,0 +1,43 @@
+/* dette er reglen for splashbilleder som både definere hvordan tekst og billeder bevæger og ligger sig  */
+#first_section {
+  grid-column: 1/4;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(splash.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+#first_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr 1fr; disse er fjernet fordi rows ikke er nødvendigt at definere i denne omgang */
+}
+#first_section .section_wrapper {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.boxed {
+  color: rgb(240, 226, 209);
+  font-size: 2rem;
+  text-align: center;
+}
+/* splash slut */
+
+#second_section {
+  margin: 2.5rem;
+}
+
+#third_section {
+  margin: 2.5rem;
+}
+
+@media (min-width: 900px) {
+  #second_section .section_wrapper {
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #second_section {
+    margin: 10rem;
+  }
+}

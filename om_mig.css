@@ -1,0 +1,15 @@
+main {
+  margin: 2.5rem;
+}
+
+@media (min-width: 900px) {
+  #first_section .section_wrapper {
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  main {
+    margin: 4rem;
+  }
+}

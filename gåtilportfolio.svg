@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="369" height="122" viewBox="0 0 369 122">
+  <defs>
+    <filter id="Rectangle_1491" x="0" y="0" width="369" height="122" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feFlood flood-color="#817b7b" flood-opacity="0.769"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_293" data-name="Group 293" transform="translate(-3.5 -115.5)">
+    <g transform="matrix(1, 0, 0, 1, 3.5, 115.5)" filter="url(#Rectangle_1491)">
+      <g id="Rectangle_1491-2" data-name="Rectangle 1491" transform="translate(13.5 7.5)" fill="#a3dff5" stroke="#797272" stroke-width="4">
+        <rect width="342" height="95" rx="45" stroke="none"/>
+        <rect x="2" y="2" width="338" height="91" rx="43" fill="none"/>
+      </g>
+    </g>
+    <text id="Gå_til_portfolio" data-name="Gå til portfolio" transform="translate(78 188)" fill="#696565" font-size="35" font-family="GranthaSangamMN-Bold, Grantha Sangam MN" font-weight="700"><tspan x="0" y="0">Gå til portfolio</tspan></text>
+  </g>
+</svg>

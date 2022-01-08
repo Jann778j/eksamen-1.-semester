@@ -5,33 +5,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="forside.css" />
+    <link rel="stylesheet" href="alle.css" />
+    <style>
+      @import url("https://use.typekit.net/fdu4vei.css");
+    </style>
   </head>
   <body>
-    <header></header>
+    <header>
+      <button class="toggle-btn"><img src="Menu-kopi.svg" alt="menu" /></button>
+      <nav class="nav">
+        <ul>
+          <li><a href="om_mig.html#first_section">om mig</a></li>
+          <li><a href="portfolio.html#first_section">portfolio</a></li>
+          <li><a href="forside.html#first_section">forside</a></li>
+        </ul>
+        <!-- class="menu_links -->
+      </nav>
+    </header>
     <main>
       <section id="first_section">
-        <div>
-          <h1>Om mig</h1>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
-            modi quibusdam voluptatibus, veritatis non consectetur deserunt rem
-            amet. Unde suscipit iusto quasi commodi consequuntur numquam dolore
-            laudantium molestias quibusdam sequi.
-          </p>
-          <img src="" alt="" />
+        <div class="section_wrapper">
+          <div class="boxed">
+            <h2>multimediedesign</h2>
+            <h1>Janne Hjuler</h1>
+          </div>
         </div>
       </section>
+      <br />
       <section id="second_section">
-        <div>
-          <h1>uddannelse</h1>
+        <div class="section_wrapper">
+          <div class="col">
+            <img src="Selvportraet-kopi.jpg" alt="billede af mig" />
+          </div>
+          <div class="col">
+            <h3>Velkommen</h3>
+            <p>
+              Mit navn er janne og jeg studerer multimediedesign på kea i
+              københavn på 1. semester. jeg har valgt at præve multimediedesign
+              uddannelse af fordi jeg altid har været et kreativt menneske og
+              fordi selve logikken i kodning er noget jeg finder spændende.
+              <br />
+              <br />
+              på denne hjemmeside vil i bla. andet finde de teamer og
+              temaopgaver jeg har været i igennem på mit 1. semester. i vil
+              finde en side der fortæller lidt om mig og min vej hertil, og
+              derudover vil i kunne se hvad jeg har lært gennem mit design af
+              denne side.
+            </p>
+          </div>
         </div>
       </section>
+
       <section id="third_section">
-        <div>
-          <h1>erhvervsearfaring</h1>
+        <div class="section_wrapper">
+          <div class="boxed">
+            <a href="portfolio.html#first_section"
+              ><img src="gåtilportfolio.svg" alt="T3"
+            /></a>
+          </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+
+    <footer>
+      <section id="section_footer">
+        <div class="section_wrapper">
+          <div class="element1">
+            <h2>Kontakt:</h2>
+            <p>
+              +45 21 18 40 15<br />
+              <br />
+              jannehjuler@hotmail.com
+            </p>
+          </div>
+
+          <div class="element2">
+            <ul class="links">
+              <li>
+                <a href="https://www.instagram.com/jannehjuler/">
+                  <div id="instagram">
+                    <img src="Instagram.svg" alt="instagram" />
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/janne.hjulerjensen/">
+                  <div id="facebook">
+                    <img src="Facebook.svg" alt="facebook" />
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
   </body>
+  <script src="java.js"></script>
 </html>
