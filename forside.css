@@ -23,8 +23,17 @@
 }
 /* splash slut */
 
+.col {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
 #second_section {
   margin: 2.5rem;
+
+  background-color: #eae4d4;
 }
 
 #third_section {
@@ -38,6 +47,6 @@
     grid-template-columns: 1fr 1fr;
   }
   #second_section {
-    margin: 10rem;
+    margin: 4rem;
   }
 }

@@ -2,9 +2,24 @@ main {
   margin: 2.5rem;
 }
 
+#first_section {
+  background-color: #eae4d4;
+}
+
+.col {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
 @media (min-width: 900px) {
   #first_section .section_wrapper {
-    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #second_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
