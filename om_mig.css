@@ -20,6 +20,10 @@ h2 {
   margin-top: 2rem;
 }
 
+.col ul {
+  line-height: 2.5rem;
+}
+
 @media (min-width: 900px) {
   #first_section .section_wrapper {
     display: grid;
