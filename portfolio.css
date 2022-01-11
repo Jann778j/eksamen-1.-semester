@@ -89,11 +89,11 @@ h2 {
 }
 
 .hover:hover {
-  transform: scale(110%);
+  transform: scale(1.1);
   transition: 0.2s;
 }
 .back-to-top:hover {
-  transform: scale(110%);
+  transform: scale(1.1);
   transition: 0.2s;
 }
 

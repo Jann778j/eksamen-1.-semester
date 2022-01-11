@@ -104,17 +104,17 @@ footer {
 
 /* hover bestemmer hvordan diverse links og tekst bevæger sig nå man køer musen henover */
 .hover:hover {
-  transform: scale(110%);
+  transform: scale(1.1);
   transition: 0.2s;
 }
 
 .toggle-btn:hover {
-  transform: scale(110%);
+  transform: scale(1.1);
   transition: 0.2s;
 }
 
 .navn:hover {
-  transform: scale(110%);
+  transform: scale(1.1);
   transition: 0.3s;
 }
 /* slut */
