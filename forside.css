@@ -32,12 +32,16 @@
 
 #second_section {
   margin: 2.5rem;
-
+  color: #363636;
   background-color: #eae4d4;
 }
 
 #third_section {
   margin: 2.5rem;
+}
+
+footer {
+  color: #363636;
 }
 
 @media (min-width: 900px) {

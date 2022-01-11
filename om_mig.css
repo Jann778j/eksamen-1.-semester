@@ -5,6 +5,13 @@ main {
 #first_section {
   background-color: #eae4d4;
 }
+h1 {
+  color: #363636;
+}
+
+h2 {
+  color: #363636;
+}
 
 .col {
   margin-left: 2rem;
